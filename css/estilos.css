@@ -1,0 +1,277 @@
+/* Cuerpo */
+
+.content {
+    display: flex;
+    position: relative;
+}
+
+/* Columna 1 */
+
+.column-1 {
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.espacio {
+    padding: 13.2%
+}
+
+.column-1 img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.column-1 h1 {
+    margin-right: 50%;
+    color: #FFFFFF;
+    font-size: 7vw;
+    transform: rotate(90deg);
+    font-family: Kanopi Brazil, sans-serif;
+}
+
+
+/* Columna 2 */
+
+.column-2 {
+    width: 33%;
+    flex: 2;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.column-2 p{    
+    font-family: Agency FB, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.5dvw;
+}
+
+/* Columna 3 */
+
+.column-3{
+    width: 33%;
+    display: block;
+    position: relative;
+}
+
+.rotated-text {
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-90deg); 
+    font-family: Agency FB, sans-serif;
+}
+
+.word {
+    position: absolute;
+    writing-mode: vertical-lr;
+    transform: rotate(90deg);
+    font-size: 3vw;
+    padding-top: 15%;
+    top: 0px;
+    color: #FFFFFF
+}
+
+.persona {
+    position: absolute;
+    width: 61%;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* Separador */
+
+
+
+/* Parte 2 */
+
+.separador {
+    width: 100%;
+    position: absolute;
+}
+
+.second-background { 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: -1; 
+}
+
+.espacio2 {
+    padding: 10%
+}
+.column1{
+    width: 33%;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.column1 img {
+    position: absolute;
+    width: auto;
+    height: 22%;
+    left: 0px;
+    margin-bottom: 10px;
+}
+
+
+.column1 p {
+    margin-top: 38%;
+    margin-left: 25%;
+    color: #FFFFFF;
+    font-size: 20px;   
+    font-family: Bahnschrift, sans-serif;
+}
+
+.column1 h1{
+    color: #FFFFFF;
+    margin-left: 30%;
+    font-size: 5vw;
+    margin-top: 3%;
+    margin-bottom: 0px;
+    font-family: BigNoodleTitling, sans-serif;
+}
+ 
+.column1 h2 {
+    color: #FFFFFF;
+    margin-left: 30%;
+    margin-bottom: 0px;
+    font-size: 2vw;
+    font-family: BigNoodleTitling, sans-serif;
+}
+
+.column1 h3{
+    color: #FFFFFF;
+    margin-left: 31%;
+    font-family: Bahnschrift, sans-serif;
+}
+
+/* Columna 2 */
+
+.column2 {
+    width: 33%;
+    flex: 2;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.column2 img{
+    position: absolute;
+    width: 55%;
+    height: auto;
+    bottom: 0px;
+    left: 24%;
+}
+
+/* Columna 3 */
+
+.column3{
+    width: 33%;
+    flex-direction: column;
+    position: relative;
+}
+
+.cualidades{
+    color: #FFFFFF;
+    font-size: 5vw;
+    margin-bottom: 10px;
+    font-family: BigNoodleTitling, sans-serif;
+
+}
+.rotated-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.rotated-1 {
+    width: 40%;
+    position: absolute;
+}
+
+.rotated-2 {
+    width: 40%;
+    position: absolute;
+    margin-top: 10%;
+    right: 26%;
+    
+}
+
+.rotated-3 {
+    width: 40%;
+    position: absolute;
+    margin-top: 20%;
+
+
+} 
+
+.rotated-4 {    
+    width: 40%;
+    position: absolute;
+    margin-top: 30%;
+    right: 26%;
+
+}
+
+.habilidades {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 5vw;
+    top: 50%;
+    font-family: BigNoodleTitling, sans-serif;
+}
+
+.take-cover1 {
+    position: absolute;
+    color: rgb(25, 67, 143);
+    font-family: Take Cover, sans-serif;
+    top: 63%;
+    left: 10%;
+    font-size: 4vw;
+}
+
+.take-cover2 {
+    position: absolute;
+    color: rgb(25, 67, 143);
+    font-family: Take Cover, sans-serif;
+    top: 63%;
+    left: 35%;
+    letter-spacing: -10px;
+    font-size: 4vw;
+}
+
+.take-cover3 {
+    position: absolute;
+    color: rgb(25, 67, 143);
+    font-family: Take Cover, sans-serif;
+    top: 75%;
+    left: 10%;
+    font-size: 4vw;
+}
+
+.take-cover4 {
+    position: absolute;
+    color: rgb(25, 67, 143);
+    font-family: Take Cover, sans-serif;
+    top: 75%;
+    left: 35%;
+    letter-spacing: -10px;
+    font-size: 4vw;
+}
+
+

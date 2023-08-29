@@ -1,0 +1,203 @@
+h1{
+    color: #ffff;
+    position: relative;
+    right: 90%;
+    font-size: 7vw;
+    left: -80%;
+    margin-bottom: 0px;
+    font-family: BigNoodleTitling, sans-serif;
+}
+/* Estilos para el contenedor de pantalla completa */
+.full-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    background-image: url('img/fondo2.png');
+}
+
+/* ... (otros estilos) ... */
+
+/* Estilos para el contenedor del carrusel centrado */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.icon-cards {
+    position: relative;
+    width: 240vw;
+    height: 160vw;
+    max-width: 838px;
+    max-height: 375px;
+    margin: 0;
+    color: white;
+    perspective: 1000px;
+    transform-origin: center;
+  }
+  .icon-cards__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: translateZ(-40vw) rotateY(0);
+    -webkit-animation: carousel 24s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+            animation: carousel 24s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  }
+  .icon-cards__content.step-animation {
+    -webkit-animation: carousel 8s infinite steps(1) forwards;
+            animation: carousel 8s infinite steps(1) forwards;
+  }
+  .icon-cards__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60vw;
+    height: 40vw;
+    max-width: 838px;
+    max-height: 375px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    transform-origin: center;
+  }
+
+  .icon-cards__item img{
+    width: auto;
+    height: 100%;
+  }
+  .icon-cards__item:nth-child(1) {
+    transform: rotateY(0) translateZ(40vw);
+  }
+  .icon-cards__item:nth-child(2) {
+    transform: rotateY(60deg) translateZ(40vw);
+  }
+  .icon-cards__item:nth-child(3) {
+    transform: rotateY(120deg) translateZ(40vw);
+  }
+  .icon-cards__item:nth-child(4) {
+    transform: rotateY(180deg) translateZ(40vw);
+  }
+  .icon-cards__item:nth-child(5) {
+    transform: rotateY(240deg) translateZ(40vw);
+  }
+  .icon-cards__item:nth-child(6) {
+    transform: rotateY(300deg) translateZ(40vw);
+  }
+  
+  
+  @-webkit-keyframes carousel {
+    0%, 8.33% {
+        transform: translateZ(-40vw) rotateY(0);
+    }
+    16.66%, 24.99% {
+        transform: translateZ(-40vw) rotateY(-60deg);
+    }
+    33.33%, 41.66% {
+        transform: translateZ(-40vw) rotateY(-120deg);
+    }
+    49.99%, 58.33% {
+        transform: translateZ(-40vw) rotateY(-180deg);
+    }
+    66.66%, 74.99% {
+        transform: translateZ(-40vw) rotateY(-240deg);
+    }
+    83.33%, 91.66% {
+        transform: translateZ(-40vw) rotateY(-300deg);
+    }
+    100%{
+        transform: translateZ(-40vw) rotateY(-360deg);
+    }
+}
+
+@keyframes carousel {
+    0%, 8.33% {
+        transform: translateZ(-40vw) rotateY(0);
+    }
+    16.66%, 24.99% {
+        transform: translateZ(-40vw) rotateY(-60deg);
+    }
+    33.33%, 41.66% {
+        transform: translateZ(-40vw) rotateY(-120deg);
+    }
+    49.99%, 58.33% {
+        transform: translateZ(-40vw) rotateY(-180deg);
+    }
+    66.66%, 74.99% {
+        transform: translateZ(-40vw) rotateY(-240deg);
+    }
+    83.33%, 91.66% {
+        transform: translateZ(-40vw) rotateY(-300deg);
+    }
+    100%{
+        transform: translateZ(-40vw) rotateY(-360deg);
+    }
+
+}
+
+
+  
+@-webkit-keyframes jelly {
+    from {
+      transform: scale(1, 1);
+    }
+    15% {
+      transform: scale(1.25, 0.75);
+    }
+    30% {
+      transform: scale(0.75, 1.25);
+    }
+    45% {
+      transform: scale(1.15, 0.85);
+    }
+    60% {
+      transform: scale(0.95, 1.05);
+    }
+    75% {
+      transform: scale(1.05, 0.95);
+    }
+    90% {
+      transform: scale(1.1, 0.9);
+    }
+    to {
+      transform: scale(1, 1);
+    }
+}
+
+@keyframes jelly {
+    from {
+      transform: scale(1, 1);
+    }
+    15% {
+      transform: scale(1.25, 0.75);
+    }
+    30% {
+      transform: scale(0.75, 1.25);
+    }
+    45% {
+      transform: scale(1.15, 0.85);
+    }
+    60% {
+      transform: scale(0.95, 1.05);
+    }
+    75% {
+      transform: scale(1.05, 0.95);
+    }
+    90% {
+      transform: scale(1.1, 0.9);
+    }
+    to {
+      transform: scale(1, 1);
+    }
+}
+
+.espacio {
+    padding: 11.65%
+}
